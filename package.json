@@ -1,0 +1,12 @@
+{
+  "name": "playwright-automation-learning",
+  "version": "0.1.0",
+  "description": "Playwright examples from the tutorial",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0"
+  }
+}
