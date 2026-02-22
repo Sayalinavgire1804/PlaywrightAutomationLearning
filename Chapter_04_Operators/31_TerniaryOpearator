@@ -1,0 +1,3 @@
+let age=14;
+let sayaliWillGoToGoa=age>=18?"Yes she will go to goa":"No she will not go to goa";
+console.log(sayaliWillGoToGoa); //this will print "No she will not go to goa" to the console because the ternary operator evaluates the condition age>=18, which is false since age is 14. Therefore, it returns the second expression "No she will not go to goa".

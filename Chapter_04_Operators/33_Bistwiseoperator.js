@@ -1,0 +1,7 @@
+//never used in automation but it is used in bitwise operations. It is used to perform bitwise operations on the operands. It works on the binary representation of the numbers and performs the operation bit by bit. The result of the operation is a new number that is formed by combining the bits of the operands according to the rules of the operator.
+//& - this is called bitwise AND operator. It returns a new number that has a bit set to 1 only if both corresponding bits of the operands are 1.
+//| - this is called bitwise OR operator. It returns a new number that has a bit set to 1 if at least one of the corresponding bits of the operands is 1.
+//^ - this is called bitwise XOR operator. It returns a new number that has a bit set to 1 only if the corresponding bits of the operands are different (one is 0 and the other is 1).
+//~ - this is called bitwise NOT operator. It returns a new number that has all the bits of the operand inverted (0s become 1s and 1s become 0s).
+//<< - this is called left shift operator. It shifts the bits of the first operand to the left by the number of positions specified by the second operand, filling the vacated bits with
+console.log(`Multiplication of 500 and 200 is ${500*200}`); //this will print "Multiplication of 500 and 200 is 100000" to the console because the expression ${500*200} is evaluated to 100000, which is then included in the string using template literals.

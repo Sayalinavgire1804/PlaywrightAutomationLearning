@@ -1,0 +1,5 @@
+let amul=null;
+let val=amul ?? "nandini milk";
+let val1=null ?? "default value is assigned";
+console.log("Which milk is used? "+val); //this will print "Which milk is used? nandini milk" to the console because the nullish coalescing operator (??) returns the right-hand operand ("nandini milk") when the left-hand operand (amul) is null or undefined. Since amul is null, val is assigned the value "nandini milk".
+console.log("What is the value of val1? "+val1); //this will print "What is the value of val1? default value is assigned" to the console because the nullish coalescing operator (??) returns the right-hand operand ("default value is assigned") when the left-hand operand (null) is null or undefined. Since the left-hand operand is null, val1 is assigned the value "default value is assigned".
